@@ -17,7 +17,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-##
+##cacheSolve() takes the matrix object created form makeCacheMatrix() and 
+##returnes the iverse of the matrix
 
 cacheSolve <- function(x, ...) {
 	
